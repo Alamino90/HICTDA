@@ -21,19 +21,25 @@ def list_chromosomes(hic) -> list[dict]:
     """Return chromosomes available in the .hic file."""
     return [
         {"name": str(c.name), "length": int(c.length)}
-        for c in hic.getChromosomes().chromosomes
-        if str(c.name).lower() not in {"all"}
+        for c in hic.getChromosomes()
+        if str(c.name).lower() != "all"
     ]
 
 
 def _find_chromosome(hic, chromosome: str):
-    target = str(chromosome).replace("chr", "").lower()
-    for c in hic.getChromosomes().chromosomes:
-        name = str(c.name)
-        normalized = name.replace("chr", "").lower()
-        if normalized == target:
+    """Find a chromosome by name, accepting both '3' and 'chr3'."""
+    target = str(chromosome).lower().removeprefix("chr")
+
+    for c in hic.getChromosomes():
+        name = str(c.name).lower().removeprefix("chr")
+
+        if name == target:
             return c
-    available = ", ".join(c["name"] for c in list_chromosomes(hic))
+
+    available = ", ".join(
+        c["name"] for c in list_chromosomes(hic)
+    )
+
     raise ValueError(
         f"Chromosome '{chromosome}' is not available in the supplied .hic file. "
         f"Available chromosomes: {available}"
