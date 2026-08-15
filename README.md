@@ -15,7 +15,7 @@ Khartoum, Sudan. ORCID: https://orcid.org/0000-0003-1129-6284
 If you use HICTDA in your research, please cite:
 
 > Mustafa, A. (2026). HICTDA: Persistent Homology Analysis of Hi-C
-> Chromatin Contact Maps. Version 0.1.0.
+> Chromatin Contact Maps. Version 0.1.1.
 
 BibTeX:
 
@@ -23,7 +23,7 @@ BibTeX:
 @software{mustafa2026hictda,
   author       = {Mustafa, Alamin},
   title        = {HICTDA: Persistent Homology Analysis of Hi-C Chromatin Contact Maps},
-  version      = {0.1.0},
+  version      = {0.1.1},
   year         = {2026},
   url          = {https://github.com/Alamino90/HICTDA}
 }
