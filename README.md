@@ -12,23 +12,21 @@ Khartoum, Sudan. ORCID: https://orcid.org/0000-0003-1129-6284
 
 ## Citation
 
-If you use HICTDA in your research, please cite:
+If you use HICTDA in your research, please cite: Alamin Mustafa. (2026). Alamino90/HICTDA: HICTDA v0.1.1 (Version v0.1.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21959829
 
-> Mustafa, A. (2026). HICTDA: Persistent Homology Analysis of Hi-C
-> Chromatin Contact Maps. Version 0.1.1.
-
-BibTeX:
-
-```bibtex
+### BibTeX:
+bibtex
 @software{mustafa2026hictda,
   author       = {Mustafa, Alamin},
-  title        = {HICTDA: Persistent Homology Analysis of Hi-C Chromatin Contact Maps},
-  version      = {0.1.1},
+  title        = {Alamino90/HICTDA: HICTDA v0.1.1},
   year         = {2026},
-  url          = {https://github.com/Alamino90/HICTDA}
+  version      = {v0.1.1},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21959829},
+  url          = {https://doi.org/10.5281/zenodo.21959829}
 }
 
-The package provides:
+### The package provides:
 
 - chromosome and genomic-region selection;
 - configurable Hi-C bin resolution;
