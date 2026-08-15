@@ -150,3 +150,6 @@ in `summary.json`.
 ### Associated Publication
 
 A manuscript describing HICTDA: A Persistent Homology Framework for Multiscale Identification of Topologically Associating Domains (TADs) in Hi-C Data is currently in preparation and will be published soon.
+
+### License
+MIT
