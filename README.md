@@ -1,6 +1,6 @@
-# HiCTDA
+# HICTDA
 
-**HiCTDA** is a Python package for persistent-homology analysis of Hi-C
+**HICTDA** is a Python package for persistent-homology analysis of Hi-C
 chromatin contact maps stored in `.hic` format and identifying Topologically Associating Domains
 (TADs).
 
@@ -12,9 +12,9 @@ Khartoum, Sudan. ORCID: https://orcid.org/0000-0003-1129-6284
 
 ## Citation
 
-If you use HiCTDA in your research, please cite:
+If you use HICTDA in your research, please cite:
 
-> Mustafa, A. (2026). HiCTDA: Persistent Homology Analysis of Hi-C
+> Mustafa, A. (2026). HICTDA: Persistent Homology Analysis of Hi-C
 > Chromatin Contact Maps. Version 0.1.0.
 
 BibTeX:
@@ -22,7 +22,7 @@ BibTeX:
 ```bibtex
 @software{mustafa2026hictda,
   author       = {Mustafa, Alamin},
-  title        = {HiCTDA: Persistent Homology Analysis of Hi-C Chromatin Contact Maps},
+  title        = {HICTDA: Persistent Homology Analysis of Hi-C Chromatin Contact Maps},
   version      = {0.1.0},
   year         = {2026},
   url          = {https://github.com/Alamino90/HICTDA}
