@@ -6,7 +6,7 @@ chromatin contact maps stored in `.hic` format and identifying Topologically Ass
 
 ## Author
 
-**Alamin Mustafa, MBBS** 
+**Alamin Mustafa**, MBBS
 Faculty of Medicine, Al-Neelain University 
 Khartoum, Sudan. ORCID: https://orcid.org/0000-0003-1129-6284
 
@@ -149,4 +149,4 @@ in `summary.json`.
 
 ### Associated Publication
 
-A manuscript describing **HICTDA: A Persistent Homology Framework for Multiscale Identification of Topologically Associating Domains (TADs) in Hi-C Data** is currently in preparation and will be published soon.
+A manuscript describing HICTDA: A Persistent Homology Framework for Multiscale Identification of Topologically Associating Domains (TADs) in Hi-C Data is currently in preparation and will be published soon.
